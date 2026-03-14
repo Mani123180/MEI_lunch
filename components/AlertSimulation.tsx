@@ -16,7 +16,7 @@ export default function AlertSimulation() {
             const late = GlobalStore.getPasses().filter(p => p.type === "lunch" && p.scannedOutAt && !p.scannedInAt);
             setNotReturnedStudents(late.map(p => ({
                 ...p,
-                student: MOCK_STUDENTS.find(s => s.id === p.studentId)
+                student: MOCK_STUDENTS().find(s => s.id === p.studentId)
             })));
         };
         update();
