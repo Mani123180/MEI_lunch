@@ -149,7 +149,7 @@ export default function StudentPortal() {
                         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 p-2">
                             <div className="w-full h-full bg-[#1e3a8a] rounded-full flex items-center justify-center font-black">MEI</div>
                         </div>
-                        <p className="font-bold text-lg uppercase tracking-widest">MEI Hostel</p>
+                        <p className="font-bold text-lg uppercase tracking-widest">MEI LUNCH</p>
                     </div>
 
                     <nav className="flex-1 p-4 space-y-2 mt-4 text-white">

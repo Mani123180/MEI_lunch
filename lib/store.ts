@@ -148,7 +148,7 @@ class PassStore {
         else if (user.role === "advisor") phone = (user as Advisor).phone;
         
         if (phone) {
-            this.simulateSMS(user.id, `Welcome to MEI Hostel Portal. Account active!`, phone);
+            this.simulateSMS(user.id, `Welcome to MEI Lunch Portal. Account active!`, phone);
         }
     }
 

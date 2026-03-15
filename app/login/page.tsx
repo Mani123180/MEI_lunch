@@ -42,7 +42,7 @@ export default function SimpleLogin() {
             {/* Header Banner Like Images */}
             <div className="h-48 bg-gradient-to-r from-[#1e3a8a] to-[#5b21b6] flex items-center justify-center">
                 <div className="text-white text-center">
-                    <h1 className="text-3xl font-bold tracking-tight">MEI HOSTEL</h1>
+                    <h1 className="text-3xl font-bold tracking-tight">MEI LUNCH</h1>
                     <p className="text-sm opacity-80 mt-1 uppercase tracking-widest">Login Portal</p>
                 </div>
             </div>
